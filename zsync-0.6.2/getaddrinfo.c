@@ -328,7 +328,7 @@ getaddrinfo(nodename, servname, hints, res)
     struct servent *servent;
     struct hostent *hostent;
     const char *canonname = NULL;
-    in_port_t port;
+    unsigned int port;
     int saved_h_errno;
     int result = 0;
 
