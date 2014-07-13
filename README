@@ -1,0 +1,11 @@
+Zsync for Android
+==================
+
+To compile on Ubuntu 14.04 (not tested on other versions but should be fine):
+1) go into zsync-0.6.2
+2) sudo apt-get install gcc-arm-linux-gnueabi
+3) ./configure --host=arm-linux-gnueabi CFLAGS="-static"
+4) make
+
+result is a binary called "zsync"
+just push it to your phone, chmod +x and start using it
